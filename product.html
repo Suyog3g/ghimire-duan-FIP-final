@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet"> 
+  <link href="css/product.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caudex:wght@400;700&display=swap" rel="stylesheet">
+   
+  <title>Product</title>
+</head>
+<body>
+  <div id="container">
+  <header id="main-header" class="grid-con">
+    <h2 class="hidden">Header</h2>
+    <section id="header-logo" class="col-start-1 col-end-2  m-col-start-1 m-col-end-2 l-col-start-1 l-col-end-2">
+        <h3 class="hidden">Header logo</h3>
+        <img src="images/Home-page/Zima.svg" alt="Zima logo">
+    </section>
+    <nav id="main-nav" class=" col-span-full m-col-start-5 m-col-end-13 l-col-start-5 l-col-end-13">
+        <h3 class="hidden">Main navigation</h3>
+        <div id="burger-con" >
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="nav-icon1" class="col-start-4 col-end-5 m-col-start-5 m-col-end-11">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      
+</header>
+  <main>
+    <div id="main-hero" class="grid-con">
+      <div id="intro" class="col-start-1 col-end-5 m-col-start-3 m-col-end-10 l-col-start-1 l-col-end-13">
+        <p>Experience our all new flavours</p>
+      </div>
+      <div id="buy-now" class="col-span-full">
+        <button><a href="#fla">Buy Now</a></button>
+      </div>
+    
+    </div>
+
+
+  
+    <!-- sort&filter -->
+    <div >
+      <div class="grid-con">
+          <button class="sort-button col-start-1 col-end-2 m-col-start-1 m-col-end-2">Sort</button>
+          <button class="filter-button col-start-4 col-end-6 m-col-start-11 m-col-end-13" >Filter</button>
+      </div>
+      <div class="grid-con">
+       
+      </div>
+
+      <div id="fla-bun" class="grid-con">
+          <div id="fla-button" class="col-start-2 m-col-start-5 m-col-end-6">
+            <a href="#">Flavour</a>
+          </div>
+          <div id="bun-button" class="col-start-3 m-col-start-7 m-col-end-8">
+              <a href="#">Bundles</a>
+          </div>
+      </div>
+    </div>
+
+
+
+
+    <!-- bundles -->
+    <div id="bundles" >
+      <section id="bun-title" class="col-span-full">
+        <h2>Bundles</h2>
+        <p>Big Gathering?</p>
+      </section>
+      <div id="bundle-bg" class="grid-con">
+        <section id="bundle-img" class="col-start-2 col-end-4 m-col-start-1 m-col-end-5">
+          <img src="images/Product-page/four-pack.webp" alt="bundle image">
+        </section>
+        <section id="bun-info" class="col-span-full m-col-start-5 m-col-end-12">
+           <h2>Friendship Bundle</h2>
+           <h3>6Can  $8.99</h3>
+           <p>This pack consists of two cans which are perfect for an individual having a relaxing time or a couple having a perfect dinner night.</p>
+        </section>
+        <div id="shopping" class="col-start-1 col-end-5 m-col-start-5 m-col-end-13 l-col-start-7 l-col-end-12">
+          <button class="shp-btn">-</button>
+          <button class="shp-btn">0</button>
+          <button class="shp-btn">+</button>
+          <button class="add-cart">
+            Add to cart
+          </button>
+        </div>
+        
+      </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- Fla -->
+    <div id="flavours" >
+      <section id="fla-title" class="col-span-full">
+        <h2>Flavours</h2>
+        <p>Experience our newest and our classic flavours</p>
+      </section>
+      <div id="flavour-bg" class="grid-con">
+        <section id="fla-img" class="col-start-2 col-end-4 m-col-start-8 m-col-end-13">
+          <img src="images/Product-page/four-pack.webp" alt="bundle image">
+        </section>
+        <section id="fla-info" class="col-span-full m-col-start-1 m-col-end-7 l-col-start-1 l-col-end-8">
+           <h2>Lemon Flavour</h2>
+           <h3>$8.99</h3>
+           <p>Our thirst-quenching Lemon Drink, made with the finest hand-picked
+            lemons to deliver a perfectly balanced flavor. </p>
+        </section>
+        <div id="fla-shopping" class="col-start-1 col-end-5 m-col-start-1 m-col-end-10 l-col-start-7 l-col-end-12">
+          <button class="fla-shp-btn">-</button>
+          <button class="fla-shp-btn">0</button>
+          <button class="fla-shp-btn">+</button>
+          <button class="fla-add-cart">
+            Add to cart
+          </button>
+        </div>
+        
+      </div>
+    </div>
+    
+  </main>
+
+  <footer id="main-footer" class="grid-con">
+
+    <section  id="foot-logo" class="col-start-1 col-end-4">
+        <h3 class="hidden">Footer logo </h3>
+        <img src="images/Home-page/footer-logo.svg" alt="Footer-logo">
+    </section>
+
+    <section  id="foot-media" class="col-start-2 col-end-4 m-col-start-5 m-col-end-8">
+        <h3 class="hidden">social media</h3>
+        <h2>Social media</h2>
+        <a href="https://www.instagram.com"><img src="images/Home-page/icons8-instagram.svg" alt="Instagram"></a>
+        <a href="https://www.facebook.com"><img src="images/Home-page/icons8-facebook.svg" alt="Facebook"></a>
+        <a href="https://www.twitter.com"><img src="images/Home-page/icons8-twitter.svg" alt="Twitter"></a>
+    </section >
+   
+    <section  id="foot-join" class="col-start-1 col-end-3">
+        <h3 class="hidden">Join </h3>
+        <h2>Join Us</h2>
+        <p>zima@email.com</p>
+    </section >
+    <section  id="foot-enquiry" class="col-start-4 col-end-5 m-col-start-10 m-col-end-13 l-col-start-11">
+        <h3 class="hidden">Enquiry</h3>
+        <h2>Enquiry</h2>
+        <p>zima@gmail.con</p>
+    </section >
+
+     
+</footer>
+</div>
+  <script src="js/main.js"></script>
+</body>
+</html>
